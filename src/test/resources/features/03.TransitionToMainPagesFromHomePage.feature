@@ -910,7 +910,7 @@ Feature: verifying transitions to main pages from the home page
     Then "Projects" sitemap title is displayed
     Then "Blog" sitemap title is displayed
 
-
+#test
 
 
 
