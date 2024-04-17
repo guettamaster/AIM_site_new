@@ -16,13 +16,13 @@ public interface TransitionToMainPagesFromHomePage {
 //    String HEALTHCARE_LINK_FOR_ECOMMERCE = "(//a[@href='https://aim-dev.aimprosoft.com/industries/healthcare/'])[2]";
     String IOT_LINK_FOR_ECOMMERCE = "(//a[@href='https://www.aimprosoft.com/industries/internet-of-things/'])[2]";
 //    String IOT_LINK_FOR_ECOMMERCE = "(//a[@href='https://aim-dev.aimprosoft.com/industries/internet-of-things/'])[2]";
-    String REAL_ESTATE_LINK_FOR_ECOMMERCE = "(//a[@href='www.aimprosoft.com/industries/real-estate/'])[2]";
+    String REAL_ESTATE_LINK_FOR_ECOMMERCE = "(//a[@href='https://www.aimprosoft.com/industries/real-estate/'])[2]";
 //    String REAL_ESTATE_LINK_FOR_ECOMMERCE = "(//a[@href='https://aim-dev.aimprosoft.com/industries/real-estate/'])[2]";
-    String EDUCATION_LINK_FOR_ECOMMERCE = "(//a[@href='www.aimprosoft.com/industries/education/'])[2]";
+    String EDUCATION_LINK_FOR_ECOMMERCE = "(//a[@href='https://www.aimprosoft.com/industries/education/'])[2]";
 //    String EDUCATION_LINK_FOR_ECOMMERCE = "(//a[@href='https://aim-dev.aimprosoft.com/industries/education/'])[2]";
-    String TELECOM_LINK_FOR_ECOMMERCE = "(//a[@href='www.aimprosoft.com/industries/telecom-software-development/'])[2]";
+    String TELECOM_LINK_FOR_ECOMMERCE = "(//a[@href='https://www.aimprosoft.com/industries/telecom-software-development/'])[2]";
 //    String TELECOM_LINK_FOR_ECOMMERCE = "(//a[@href='https://aim-dev.aimprosoft.com/industries/telecom-software-development/'])[2]";
-    String RETAIL_LINK_FOR_ECOMMERCE = "(//a[@href='www.aimprosoft.com/industries/retail-software-development/'])[2]";
+    String RETAIL_LINK_FOR_ECOMMERCE = "(//a[@href='https://www.aimprosoft.com/industries/retail-software-development/'])[2]";
 //    String RETAIL_LINK_FOR_ECOMMERCE = "(//a[@href='https://aim-dev.aimprosoft.com/industries/retail-software-development/'])[2]";
     String VIEW_OPEN_VACANCIES_BUTTON = "//a[@class='btn-primary btn-dark btn-light'][contains(text(), 'View open vacancies')]";
     String GENERAL_TEXT_ON_THE_PROJECTS_PAGE = "//p[@class='p-dark'][contains(text(), 'Explore the way Aimprosoft helps businesses breathe life into mere ideas and go through digital transformation journey successfully.')]";
@@ -32,4 +32,18 @@ public interface TransitionToMainPagesFromHomePage {
     String TITLE1_ON_THE_PRIVACY_POLICY_PAGE = "//div[@class='h5 h-dark toc__title'][contains(text(), 'Table of contents')]";
     String TITLE2_ON_THE_PRIVACY_POLICY_PAGE = "//h2[@id='personal-information-we-collect-and-use'][contains(text(), 'Personal information we collect and use')]";
     String SITEMAP_TITLE = "//h2[@class='h3 h-dark aos-init aos-animate'][contains(text(), '$1')]";
+    String HYBRIS_DEVELOPMENT_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/hybris-development/']";
+    String QA_AND_SOFTWARE_TESTING_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/qa-software-testing/']";
+    String ALFRESCO_DEVELOPMENT_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/alfresco-development/']";
+    String LIFERAY_DEVELOPMENT_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/liferay-development/']";
+    String WEB_DEVELOPMENT_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/web-development/']";
+    String MOBILE_DEVELOPMENT_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/mobile-app-development/']";
+    String BUSINESS_ANALYSIS_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/business-analysis/']";
+    String DEDICATED_TEAM_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/dedicated-software-development-team/']";
+    String UX_UI_DESIGN_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/ui-ux-design/']";
+    String DATA_SCIENCE_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/data-science-services/']";
+
+
+
+
 }

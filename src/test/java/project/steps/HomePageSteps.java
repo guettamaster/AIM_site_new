@@ -9,6 +9,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import project.ui.pageObj.CorePageObjects;
+import project.ui.xpath_locators.ContactFormFromHomePage;
 import project.ui.xpath_locators.HomePage;
 
 import java.util.concurrent.TimeUnit;
@@ -20,7 +21,7 @@ public class HomePageSteps extends ScenarioSteps {
 
     @When("^navigate on \"([^\"]*)\" title in the header$")
     public void navigateOnTitleInTheHeader(String text) throws Throwable {
-        waitABit(5000);
+//        waitABit(500);
         core.hoverOnElement(HomePage.HEADER_TITLE.replace("$1", text));
     }
 
@@ -82,13 +83,11 @@ public class HomePageSteps extends ScenarioSteps {
         core.clickOnElementByXpath(HomePage.SCROLL_DOWN_TO_DISCOVER_LINK);
     }
 
-
     @When("^navigate on \"([^\"]*)\" title in the Industries block$")
     public void navigateOnTitleInTheIndustriesBlockString(String text) throws Throwable {
         waitABit(500);
         core.hoverOnElement(HomePage.LINK_IN_THE_INDUSTRIES_BLOCK.replace("$1", text));
     }
-
 
     @Then("^Services title is displayed$")
     public void servicesTitleIsDisplayed() throws Throwable {
@@ -98,16 +97,15 @@ public class HomePageSteps extends ScenarioSteps {
         );
     }
 
-
     @When("^navigate on Services title$")
     public void navigateOnServicesTitle() throws Throwable {
         core.hoverOnElement(HomePage.SERVICES_TITLE);
     }
 
-
     @When("^click right arrow in the carousel$")
     public void clickRightArrowInTheCarousel() {
         core.clickUsingJSExecutor(HomePage.RIGHT_ARROW_IN_THE_SERVICES_CAROUSEL);
+        waitABit(500);
     }
 
     @When("^navigate on right arrow in the carousel$")
@@ -932,5 +930,13 @@ public class HomePageSteps extends ScenarioSteps {
         );
     }
 
+    @When("^click Accept button$")
+    public void clickAcceptButton() {
+        core.clickUsingJSExecutor(HomePage.ACCEPT_BUTTON);
+    }
+    @When("^navigate on Accept button$")
+    public void navigateOnAcceptButton() {
+        core.hoverOnElement(HomePage.ACCEPT_BUTTON);
 
+    }
 }

@@ -50,6 +50,7 @@ public class TransitionToMainPagesFromHomePageSteps extends ScenarioSteps {
 
     @When("^click eCommerce explore link$")
     public void clickECommerceExploreLink() {
+        waitABit(500);
         core.clickUsingJSExecutor(TransitionToMainPagesFromHomePage.EXPLORE_LINK_FOR_ECOMMERCE);
     }
 
@@ -418,5 +419,127 @@ public class TransitionToMainPagesFromHomePageSteps extends ScenarioSteps {
                 "sitemap title isn't displayed",
                 core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.SITEMAP_TITLE.replace("$1", text))
         );
+    }
+
+    @Then("^Hybris Development service title is displayed$")
+    public void hybrisDevelopmentServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "Hybris Development service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.HYBRIS_DEVELOPMENT_SERVICE_LINK)
+        );
+    }
+
+    @When("^click Hybris Development service link$")
+    public void clickHybrisDevelopmentServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.HYBRIS_DEVELOPMENT_SERVICE_LINK);
+    }
+
+    @Then("^QA and Software Testing service title is displayed$")
+    public void qaAndSoftwareTestingServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "QA and Software Testing service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.QA_AND_SOFTWARE_TESTING_SERVICE_LINK)
+        );
+    }
+    @When("^click QA and Software Testing service link$")
+    public void clickQAAndSoftwareTestingServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.QA_AND_SOFTWARE_TESTING_SERVICE_LINK);
+    }
+
+    @Then("^Alfresco Development service title is displayed$")
+    public void alfrescoDevelopmentServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "Alfresco Development service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.ALFRESCO_DEVELOPMENT_SERVICE_LINK)
+        );
+    }
+    @When("^click Alfresco Development service link$")
+    public void clickAlfrescoDevelopmentServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.ALFRESCO_DEVELOPMENT_SERVICE_LINK);
+    }
+
+    @Then("^Liferay Development service title is displayed$")
+    public void liferayDevelopmentServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "Liferay Development service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.LIFERAY_DEVELOPMENT_SERVICE_LINK)
+        );
+    }
+    @When("^click Liferay Development service link$")
+    public void clickLiferayDevelopmentServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.LIFERAY_DEVELOPMENT_SERVICE_LINK);
+    }
+
+    @Then("^Web Development service title is displayed$")
+    public void webDevelopmentServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "Web Development service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.WEB_DEVELOPMENT_SERVICE_LINK)
+        );
+    }
+    @When("^click Web Development service link$")
+    public void clickWebDevelopmentServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.WEB_DEVELOPMENT_SERVICE_LINK);
+    }
+    @Then("^Mobile Development service title is displayed$")
+    public void mobileDevelopmentServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "Mobile Development service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.MOBILE_DEVELOPMENT_SERVICE_LINK)
+        );
+    }
+    @When("^click Mobile Development service link$")
+    public void clickMobileDevelopmentServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.MOBILE_DEVELOPMENT_SERVICE_LINK);
+    }
+    @Then("^Business Analysis service title is displayed$")
+    public void businessAnalysisServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "Business Analysis service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.BUSINESS_ANALYSIS_SERVICE_LINK)
+        );
+    }
+    @When("^click Business Analysis service link$")
+    public void clickBusinessAnalysisServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.BUSINESS_ANALYSIS_SERVICE_LINK);
+    }
+
+    @Then("^Dedicated Team service title is displayed$")
+    public void dedicatedTeamServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "Dedicated Team service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.DEDICATED_TEAM_SERVICE_LINK)
+        );
+    }
+
+    @When("^click Dedicated Team service link$")
+    public void clickDedicatedTeamServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.DEDICATED_TEAM_SERVICE_LINK);
+    }
+
+    @Then("^UX/UI Design service title is displayed$")
+    public void uxUIDesignServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "UX/UI Design service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.UX_UI_DESIGN_SERVICE_LINK)
+        );
+    }
+
+    @When("^click UX/UI Design service link$")
+    public void clickUXUIDesignServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.UX_UI_DESIGN_SERVICE_LINK);
+    }
+
+    @Then("^Data Science service title is displayed$")
+    public void dataScienceServiceTitleIsDisplayed() {
+        Assert.assertTrue(
+                "Data Science service title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.DATA_SCIENCE_SERVICE_LINK)
+        );
+    }
+
+    @When("^click Data Science service link$")
+    public void clickDataScienceServiceLink() {
+        core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.DATA_SCIENCE_SERVICE_LINK);
     }
 }

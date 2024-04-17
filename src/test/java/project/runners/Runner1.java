@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 //@CucumberOptions(features = "src/test/resources/features", glue = "v1", tags = {"@performance_testing_mpls or @performance_testing_oneCloud or @performance_testing_api"})
 @CucumberOptions(features = {
 
-        "src/test/resources/features/01.HomePage.feature",
-//        "src/test/resources/features/02.HE-21.Billing Address(E-Store).feature"
+//        "src/test/resources/features/01.HomePage.feature",
+        "src/test/resources/features/03.TransitionToMainPagesFromHomePage.feature"
 },
         glue = "stepdefinitions"
 )

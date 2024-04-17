@@ -80,7 +80,7 @@ public interface HomePage {
 //    String MOBILE_LINK_IN_THE_FOOTER = "(//a[@href='https://aim-dev.aimprosoft.com/services/mobile-app-development/'])[3]";
     String QA_LINK_IN_THE_FOOTER = "(//a[@href='https://www.aimprosoft.com/services/qa-software-testing/'])[3]";
 //    String QA_LINK_IN_THE_FOOTER = "(//a[@href='https://aim-dev.aimprosoft.com/services/qa-software-testing/'])[3]";
-    String DEDICATED_TEAM_LINK_IN_THE_FOOTER = "(//a[@href='https://www.aimprosoft.com/services/dedicated-software -development-team/'])[3]";
+    String DEDICATED_TEAM_LINK_IN_THE_FOOTER = "(//a[@href='https://www.aimprosoft.com/services/dedicated-software-development-team/'])[3]";
 //    String DEDICATED_TEAM_LINK_IN_THE_FOOTER = "(//a[@href='https://aim-dev.aimprosoft.com/services/dedicated-software -development-team/'])[3]";
     String BUSINESS_ANALYSIS_LINK_IN_THE_FOOTER = "(//a[@href='https://www.aimprosoft.com/services/business-analysis/'])[3]";
 //    String BUSINESS_ANALYSIS_LINK_IN_THE_FOOTER = "(//a[@href='https://aim-dev.aimprosoft.com/services/business-analysis/'])[3]";
@@ -158,5 +158,6 @@ public interface HomePage {
     String WINSTON_SALEM_LINK_IN_THE_FOOTER = "//a[@href='https://www.aimprosoft.com/web-development-company-in-winston-salem/']";
 //    String WINSTON_SALEM_LINK_IN_THE_FOOTER = "//a[@href='https://aim-dev.aimprosoft.com/web-development-company-in-winston-salem/']";
     String COMPANY_TITLE_IN_THE_FOOTER = "//div[@class='h4 h-dark accordion-title'][.='Company']";
+    String ACCEPT_BUTTON = "//span[@class='btn-primary'][.='Accept']";
 
 }
