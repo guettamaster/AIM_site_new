@@ -2,46 +2,47 @@ Feature: verifying home page
 
   Scenario: 1.001 Check that "Home" page is opened
     Given open home page
-#    When navigate on "Industries" title in the header
-#    Then "Education" link is displayed
-#    Then "eCommerce" link is displayed
-#    Then "Healthcare" link is displayed
-#    Then "IoT" link is displayed
-#    Then "Real Estate" link is displayed
-#    Then "Retail" link is displayed
-#    Then "Telecom" link is displayed
-#    When navigate on "Services" title in the header
-#    Then "Hybris Development" link is displayed
-#    Then "Alfresco Development" link is displayed
-#    Then "Liferay Development" link is displayed
-#    Then "Web Development" link is displayed
-#    Then "Mobile Development" link is displayed
-#    Then "QA and Software Testing" link is displayed
-#    Then "Dedicated Team" link is displayed
-#    Then "Business Analysis" link is displayed
-#    Then "UX/UI Design" link is displayed
-#    Then "Data Science" link is displayed
-#    Then "IT Outsourcing" link is displayed
-#    Then "Front-end Development" link is displayed
-#    Then "Backend Development" link is displayed
-#    Then "IT Staff Augmentation Company" link is displayed
-#    When navigate on "Technologies" title in the header
-#    Then "Java" link is displayed
-#    Then "Python" link is displayed
-#    Then ".NET" link is displayed
-#    Then "JavaScript" link is displayed
-#    Then "Swift" link is displayed
-#    Then "Kotlin" link is displayed
-#    Then "React.js" link is displayed
-#    Then "Angular" link is displayed
-#    Then "Node.js" link is displayed
-#    Then Projects link without sublinks is displayed
-#    When navigate on "Company" title in the header
-#    Then "About us" link is displayed
-#    Then "Careers" link is displayed
-#    When navigate on "Blog" title in the header
-#    Then "Articles" link is displayed
-#    Then "Insights" link is displayed
+    When click Accept button
+    When navigate on "Industries" title in the header
+    Then "Education" link is displayed
+    Then "eCommerce" link is displayed
+    Then "Healthcare" link is displayed
+    Then "IoT" link is displayed
+    Then "Real Estate" link is displayed
+    Then "Retail" link is displayed
+    Then "Telecom" link is displayed
+    When navigate on "Services" title in the header
+    Then "Hybris Development" link is displayed
+    Then "Alfresco Development" link is displayed
+    Then "Liferay Development" link is displayed
+    Then "Web Development" link is displayed
+    Then "Mobile Development" link is displayed
+    Then "QA and Software Testing" link is displayed
+    Then "Dedicated Team" link is displayed
+    Then "Business Analysis" link is displayed
+    Then "UX/UI Design" link is displayed
+    Then "Data Science" link is displayed
+    Then "IT Outsourcing" link is displayed
+    Then "Front-end Development" link is displayed
+    Then "Backend Development" link is displayed
+    Then "IT Staff Augmentation Company" link is displayed
+    When navigate on "Technologies" title in the header
+    Then "Java" link is displayed
+    Then "Python" link is displayed
+    Then ".NET" link is displayed
+    Then "JavaScript" link is displayed
+    Then "Swift" link is displayed
+    Then "Kotlin" link is displayed
+    Then "React.js" link is displayed
+    Then "Angular" link is displayed
+    Then "Node.js" link is displayed
+    Then Projects link without sublinks is displayed
+    When navigate on "Company" title in the header
+    Then "About us" link is displayed
+    Then "Careers" link is displayed
+    When navigate on "Blog" title in the header
+    Then "Articles" link is displayed
+    Then "Insights" link is displayed
     Then Custom Software Development Company title is displayed
     Then scroll down to discover link is presented
     When click on scroll down to discover link
@@ -239,6 +240,9 @@ Feature: verifying home page
     Then "81-83 Griva Digeni Ave., Jacovides Tower, 1st floor" address is displayed
     Then "1090" address is displayed
     Then "Nicosia, Cyprus" address is displayed
+    Then SAP award banner is displayed
+    Then Clutch Eastern Europe award is displayed
+    Then Top Node JS Developers award is displayed
     When navigate on Expertise title
     When click on "Services" title
     Then Hybris link in the footer is displayed
@@ -269,7 +273,7 @@ Feature: verifying home page
     Then Kotlin link in the footer is displayed
     Then React.js link in the footer is displayed
     Then Angular link in the footer is displayed
-    When navigate on Node.js link at the footer
+#    When navigate on Node.js link at the footer
     Then Node.js link in the footer is displayed
     When click on "Hire Developers" title
     Then Hire Node.js link in the footer is displayed
@@ -300,6 +304,7 @@ Feature: verifying home page
     Then "Privacy policy" company link in the footer is displayed
     Then "Sitemap" company link in the footer is displayed
     Then Aim copyright is displayed
+    Then DMCA Protected banner is displayed
     Then Instagram icon is displayed
     Then Facebook icon is displayed
     Then Twitter icon is displayed

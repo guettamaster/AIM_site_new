@@ -542,4 +542,12 @@ public class TransitionToMainPagesFromHomePageSteps extends ScenarioSteps {
     public void clickDataScienceServiceLink() {
         core.clickOnElementByXpath(TransitionToMainPagesFromHomePage.DATA_SCIENCE_SERVICE_LINK);
     }
+
+    @Then("^Aimprosoft sitemap general title is displayed$")
+    public void aimprosoftSitemapGeneralTitleIsDisplayed() {
+        Assert.assertTrue(
+                "Aimprosoft sitemap general title isn't displayed",
+                core.elementByXpathIsVisible(TransitionToMainPagesFromHomePage.AIMPROSOFT_SITEMAP_TITLE)
+        );
+    }
 }

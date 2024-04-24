@@ -42,7 +42,7 @@ public interface TransitionToMainPagesFromHomePage {
     String DEDICATED_TEAM_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/dedicated-software-development-team/']";
     String UX_UI_DESIGN_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/ui-ux-design/']";
     String DATA_SCIENCE_SERVICE_LINK = "//a[@class='services__link'][@href='https://www.aimprosoft.com/services/data-science-services/']";
-
+    String AIMPROSOFT_SITEMAP_TITLE = "//h1[@class='h2 h-dark'][contains(text(), 'Aimprosoft Sitemap')]";
 
 
 

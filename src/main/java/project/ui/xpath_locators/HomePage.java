@@ -159,5 +159,10 @@ public interface HomePage {
 //    String WINSTON_SALEM_LINK_IN_THE_FOOTER = "//a[@href='https://aim-dev.aimprosoft.com/web-development-company-in-winston-salem/']";
     String COMPANY_TITLE_IN_THE_FOOTER = "//div[@class='h4 h-dark accordion-title'][.='Company']";
     String ACCEPT_BUTTON = "//span[@class='btn-primary'][.='Accept']";
+    String SAP_AWARD_BANNER = "//img[@alt='SAP award']";
+    String CLUTCH_EASTERN_EUROPE_AWARD_BANNER = "//img[@alt='clutch eastern europe_2023 award']";
+    String TOP_NODE_JS_DEVELOPERS_AWARD_BANNER = "//img[@alt='top node.js developers award']";
+    String DMCA_PROTECTED_BANNER = "//img[@alt='DMCA.com Protection Status']";
+
 
 }

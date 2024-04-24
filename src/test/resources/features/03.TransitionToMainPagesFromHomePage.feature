@@ -227,7 +227,7 @@ Feature: verifying transitions to main pages from the home page
     When click "About us" link
     Then "About Aimprosoft" general title is displayed
 
-  Scenario: 3.033 Check that "About us" page is opened
+  Scenario: 3.033 Check that "Careers" page is opened
     When navigate on "Company" title in the header
     Then "Careers" link is displayed
     When click "Careers" link
@@ -805,7 +805,7 @@ Feature: verifying transitions to main pages from the home page
     When navigate on Expertise title
     Then "Sitemap" company link in the footer is displayed
     When click on "Sitemap" company link in the footer
-    Then "Aimprosoft sitemap" general title is displayed
+    Then Aimprosoft sitemap general title is displayed
     Then "Industries" sitemap title is displayed
     Then "Services" sitemap title is displayed
     Then "Technologies" sitemap title is displayed

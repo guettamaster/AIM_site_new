@@ -85,7 +85,7 @@ public class HomePageSteps extends ScenarioSteps {
 
     @When("^navigate on \"([^\"]*)\" title in the Industries block$")
     public void navigateOnTitleInTheIndustriesBlockString(String text) throws Throwable {
-        waitABit(500);
+        waitABit(1000);
         core.hoverOnElement(HomePage.LINK_IN_THE_INDUSTRIES_BLOCK.replace("$1", text));
     }
 
@@ -105,7 +105,6 @@ public class HomePageSteps extends ScenarioSteps {
     @When("^click right arrow in the carousel$")
     public void clickRightArrowInTheCarousel() {
         core.clickUsingJSExecutor(HomePage.RIGHT_ARROW_IN_THE_SERVICES_CAROUSEL);
-        waitABit(500);
     }
 
     @When("^navigate on right arrow in the carousel$")
@@ -938,5 +937,37 @@ public class HomePageSteps extends ScenarioSteps {
     public void navigateOnAcceptButton() {
         core.hoverOnElement(HomePage.ACCEPT_BUTTON);
 
+    }
+
+    @Then("^SAP award banner is displayed$")
+    public void sapAwardBannerIsDisplayed() {
+        Assert.assertTrue(
+                "SAP award banner isn't displayed",
+                core.elementByXpathIsVisible(HomePage.SAP_AWARD_BANNER)
+        );
+    }
+
+    @Then("^Clutch Eastern Europe award is displayed$")
+    public void clutchEasternEuropeAwardIsDisplayed() {
+        Assert.assertTrue(
+                "Clutch Eastern Europe award isn't displayed",
+                core.elementByXpathIsVisible(HomePage.CLUTCH_EASTERN_EUROPE_AWARD_BANNER)
+        );
+    }
+
+    @Then("^Top Node JS Developers award is displayed$")
+    public void topNodeJSDevelopersAwardIsDisplayed() {
+        Assert.assertTrue(
+                "Top Node JS Developers award isn't displayed",
+                core.elementByXpathIsVisible(HomePage.TOP_NODE_JS_DEVELOPERS_AWARD_BANNER)
+        );
+    }
+
+    @Then("^DMCA Protected banner is displayed$")
+    public void dmcaProtectedBannerIsDisplayed() {
+        Assert.assertTrue(
+                "DMCA Protected banner isn't displayed",
+                core.elementByXpathIsVisible(HomePage.DMCA_PROTECTED_BANNER)
+        );
     }
 }
