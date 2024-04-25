@@ -66,4 +66,15 @@ Feature: verifying education page
     When navigate on "Educational portals" title in the Industries block
     When click "Educational portals" link in the Industries block
     Then "Liferay-based knowledge portal" title is displayed
+    When navigate on "Top reasons to choose educational custom software development for your project" subtitle
+    Then "Opportunity to attract larger audiences" item is displayed
+    Then "Efficient management of learning processes" item is displayed
+    Then "Less time spent on employee training" item is displayed
+    Then "Improved collaboration" item is displayed
+    When navigate on "Our recent articles" subtitle
+    Then first blog is displayed
+    Then second blog is displayed
+    Then third blog is displayed
+
+
 
