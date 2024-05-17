@@ -36,19 +36,6 @@ public class EducationPageSteps extends ScenarioSteps {
         );
     }
 
-    @Then("^\"([^\"]*)\" button is displayed$")
-    public void buttonIsDisplayed(String text) throws Throwable {
-        Assert.assertTrue(
-                "button isn't displayed",
-                core.elementByXpathIsVisible(EducationPage.GET_STARTED_BUTTON.replace("$1", text))
-        );
-    }
-
-    @When("^click on \"([^\"]*)\" button$")
-    public void clickOnButton(String text) throws Throwable {
-        core.clickUsingJSExecutor(EducationPage.GET_STARTED_BUTTON.replace("$1", text));
-    }
-
     @When("^navigate on Educational Software Development Services title$")
     public void navigateOnEducationalSoftwareDevelopmentServicesTitle() {
         core.hoverOnElement(EducationPage.EDUCATIONAL_SOFTWARE_DEVELOPMENT_SERVICES_TITLE);
@@ -151,5 +138,41 @@ public class EducationPageSteps extends ScenarioSteps {
     @When("^click right arrow first inside Our Clients section$")
     public void clickRightArrowFirstInsideOurClientsSection() {
         core.clickUsingJSExecutor(EducationPage.RIGHT_ARROW_FIRST_INSIDE_OUR_CLIENTS_SECTION);
+    }
+
+    @Then("^Get started button is displayed$")
+    public void getStartedButtonIsDisplayed() {
+        Assert.assertTrue(
+                "Get started button isn't displayed",
+                core.elementByXpathIsVisible(EducationPage.GET_STARTED_BUTTON)
+        );
+    }
+
+    @Then("^Talk to us button is displayed$")
+    public void talkToUsButtonIsDisplayed() {
+        Assert.assertTrue(
+                "Talk to us button isn't displayed",
+                core.elementByXpathIsVisible(EducationPage.TALK_TO_US_BUTTON)
+        );
+    }
+
+    @When("^click on Get started button$")
+    public void clickOnGetStartedButton() {
+        core.clickUsingJSExecutor(EducationPage.GET_STARTED_BUTTON);
+    }
+
+    @When("^click on Talk to us button$")
+    public void clickOnTalkToUsButton() {
+        core.clickUsingJSExecutor(EducationPage.TALK_TO_US_BUTTON);
+    }
+
+    @When("^navigate on right arrow second inside Our Clients section$")
+    public void navigateOnRightArrowSecondInsideOurClientsSection() {
+        core.scrollToElementByXpathUsingJsExecutor(EducationPage.RIGHT_ARROW_SECOND_INSIDE_OUR_CLIENTS_SECTION);
+    }
+
+    @When("^click right arrow second inside Our Clients section$")
+    public void clickRightArrowSecondInsideOurClientsSection() {
+        core.clickUsingJSExecutor(EducationPage.RIGHT_ARROW_SECOND_INSIDE_OUR_CLIENTS_SECTION);
     }
 }

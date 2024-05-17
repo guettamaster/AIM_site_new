@@ -7,8 +7,8 @@ Feature: verifying education page
     When click "Education" link
     Then Education page is opened
     Then "Educational Software Development Services" general title is displayed
-    Then "Get started" button is displayed
-    When click on "Get started" button
+    Then Get started button is displayed
+    When click on Get started button
     Then "Let us help with your " subtitle is displayed
     When navigate on "Educational Software Development Services" general title
     Then "scroll down to discover" link is presented
@@ -22,9 +22,11 @@ Feature: verifying education page
     When click right arrow in the carousel
     Then "Educational portals" title is displayed
     When navigate on "Need assistance with your " title
-    Then "Talk to us" button is displayed
-    When click on "Talk to us" button
+    Then Talk to us button is displayed
+    When click on Talk to us button
     Then "Let us help with your " subtitle is displayed
+
+
     When navigate on "Why сhoose Aimprosoft as" subtitle
     Then "Profound domain knowledge" title is displayed
     Then "A wide spectrum of e-learning services" title is displayed
