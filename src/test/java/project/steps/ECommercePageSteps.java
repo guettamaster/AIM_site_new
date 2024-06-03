@@ -1,14 +1,11 @@
 package project.steps;
 
-import cucumber.api.PendingException;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
 import project.ui.pageObj.CorePageObjects;
 import project.ui.xpath_locators.ECommercePage;
-import project.ui.xpath_locators.EducationPage;
 
 public class ECommercePageSteps extends ScenarioSteps {
 
