@@ -9,7 +9,7 @@ Feature: verifying eCommerce page
     Then "eCommerce Development Services" general title is displayed
     Then Get started button is displayed
     When click on Get started button
-    Then "Let us help with your " subtitle is displayed
+    Then "Let us help with your eCommerce project" subtitle is displayed
     When navigate on "eCommerce Development Services" general title
     Then "scroll down to discover" link is presented
     When click on "scroll down to discover" link
@@ -22,10 +22,10 @@ Feature: verifying eCommerce page
     When click right arrow in the carousel
     Then "Custom marketplaces" title is displayed
     Then "Legacy apps reengineering services" title is displayed
-    When navigate on "Need assistance with your " title
+    When navigate on "Need assistance with your eCommerce project?" title
     Then Talk to us button is displayed
     When click on Talk to us button
-    Then "Let us help with your " subtitle is displayed
+    Then "Let us help with your eCommerce project" subtitle is displayed
     When navigate on "Key reasons to develop an eCommerce software" subtitle
     Then "SAP Silver Partner" title is displayed
     Then "Security & regulatory compliance" title is displayed

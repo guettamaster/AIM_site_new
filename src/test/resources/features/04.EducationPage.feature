@@ -25,8 +25,6 @@ Feature: verifying education page
     Then Talk to us button is displayed
     When click on Talk to us button
     Then "Let us help with your " subtitle is displayed
-
-
     When navigate on "Why сhoose Aimprosoft as" subtitle
     Then "Profound domain knowledge" title is displayed
     Then "A wide spectrum of e-learning services" title is displayed
