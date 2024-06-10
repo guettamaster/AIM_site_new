@@ -41,12 +41,49 @@ Feature: verifying healthcare page
     When navigate on right arrow inside Our Clients section
     When click right arrow inside Our Clients section
     Then "Medical software for monitoring patients with heart disease" title is displayed
+    When navigate on right arrow inside Our Clients section
+    When click right arrow inside Our Clients section
+    Then "Medical patient history service" title is displayed
+    When navigate on right arrow inside Our Clients section
+    When click right arrow inside Our Clients section
+    Then "Vita Manager app: solution for health monitoring" title is displayed
     Then View project in portfolio link is displayed
     When click View project in portfolio link
-    Then "Medical software for monitoring patients" portfolio page is opened
+    Then "Vita Manager app" portfolio page is opened
     Given open home page
     When navigate on "Industries" title in the header
     Then "Healthcare" link is displayed
     When click "Healthcare" link
     Then Healthcare page is opened
-    When navigate on "Patient engagement software" title in the Industries block
+    When navigate on "Healthcare apps" title in the Industries block
+    When click "Healthcare apps" link in the Industries block
+    Then "Mobile application for seamless" title is displayed
+    When navigate on "Online drugstores" title in the Industries block
+    When click "Online drugstores" link in the Industries block
+    Then "Website for a B2B & B2C-oriented business that sells sports medicine goods" title is displayed
+    When navigate on right arrow first inside Our Clients section
+    When click right arrow first inside Our Clients section
+    Then "Pharmaceutical chain of online stores" title is displayed
+    When navigate on right arrow first inside Our Clients section
+    When click right arrow first inside Our Clients section
+    Then "Online drugstore that became a startup success" title is displayed
+    When navigate on "IoT-based solutions" title in the Industries block
+    When click "IoT-based solutions" link in the Industries block
+    Then "IoT-powered solution for wireless health monitoring" title is displayed
+    When navigate on "Wellness software" title in the Industries block
+    When click "Wellness software" link in the Industries block
+    Then "Website that provides information about the company’s product offerings & services" title is displayed
+    When navigate on "Document management software" title in the Industries block
+    When click "Document management software" link in the Industries block
+    Then "Document management system for the US hospital " title is displayed
+    When navigate on "Major challenges related to custom healthcare software" subtitle
+    Then "Compliance" item is displayed
+    Then "Software integration with existing solutions" item is displayed
+    Then "Cost-related nuances" item is displayed
+    Then "Software maintenance after its launch" item is displayed
+    When navigate on "Our recent articles" subtitle
+    Then first blog is displayed
+    Then second blog is displayed
+    Then third blog is displayed
+
+
