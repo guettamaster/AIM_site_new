@@ -1,19 +1,11 @@
 package project.steps;
 
-import cucumber.api.PendingException;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import project.ui.pageObj.CorePageObjects;
-import project.ui.xpath_locators.ContactFormFromHomePage;
 import project.ui.xpath_locators.HomePage;
-
-import java.util.concurrent.TimeUnit;
-
 
 public class HomePageSteps extends ScenarioSteps {
 

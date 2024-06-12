@@ -1,14 +1,11 @@
 package project.steps;
 
-import cucumber.api.PendingException;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
 import project.ui.pageObj.CorePageObjects;
 import project.ui.xpath_locators.ContactFormFromHomePage;
-import project.ui.xpath_locators.HomePage;
 
 public class ContactFormFromHomePageSteps extends ScenarioSteps {
 
@@ -26,7 +23,6 @@ public class ContactFormFromHomePageSteps extends ScenarioSteps {
                 core.elementByXpathIsVisible(ContactFormFromHomePage.FULL_NAME_INPUT_FIELD)
         );
     }
-
 
     @Then("^Email input field is displayed$")
     public void emailInputFieldIsDisplayed() {

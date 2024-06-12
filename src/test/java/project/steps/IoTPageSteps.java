@@ -1,7 +1,6 @@
 package project.steps;
 
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
 import project.ui.pageObj.CorePageObjects;
@@ -19,4 +18,11 @@ public class IoTPageSteps extends ScenarioSteps {
         );
     }
 
+    @Then("^A cross-platform mobile app to track changes in the food storage conditions title is displayed$")
+    public void aCrossPlatformMobileAppToTrackChangesInTheFoodStorageConditionsTitleIsDisplayed() {
+        Assert.assertTrue(
+                "A cross-platform mobile app to track changes in the food storage conditions title isn't displayed",
+                core.elementByXpathIsVisible(IoTPage.A_CROSS_PLATFORM_MOBILE_APP_TO_TRACK_CHANGES_IN_THE_FOOD_STORAGE_CONDITIONS_TITLE)
+        );
+    }
 }

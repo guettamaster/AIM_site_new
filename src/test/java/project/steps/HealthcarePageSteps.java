@@ -1,7 +1,6 @@
 package project.steps;
 
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
 import project.ui.pageObj.CorePageObjects;
