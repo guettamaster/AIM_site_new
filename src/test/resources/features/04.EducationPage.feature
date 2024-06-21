@@ -75,6 +75,3 @@ Feature: verifying education page
     Then first blog is displayed
     Then second blog is displayed
     Then third blog is displayed
-
-
-
