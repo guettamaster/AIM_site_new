@@ -1,6 +1,6 @@
 Feature: verifying Telecom page
 
-  Scenario: 10.001 Check that "Telecom" page is opened
+  Scenario: 11.001 Check that "Telecom" page is opened
     Given open home page
     When navigate on "Industries" title in the header
     Then "Telecom" link is displayed

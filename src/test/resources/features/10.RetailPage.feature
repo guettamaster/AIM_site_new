@@ -1,6 +1,6 @@
 Feature: verifying Retail page
 
-  Scenario: 9.001 Check that "Retail" page is opened
+  Scenario: 10.001 Check that "Retail" page is opened
     Given open home page
     When navigate on "Industries" title in the header
     Then "Retail" link is displayed

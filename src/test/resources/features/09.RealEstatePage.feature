@@ -1,6 +1,6 @@
 Feature: verifying Real Estate page
 
-  Scenario: 8.001 Check that "Real Estate" page is opened
+  Scenario: 9.001 Check that "Real Estate" page is opened
     Given open home page
     When navigate on "Industries" title in the header
     Then "Real Estate" link is displayed

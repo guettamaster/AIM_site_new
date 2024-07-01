@@ -1,6 +1,6 @@
 Feature: verifying healthcare page
 
-  Scenario: 6.001 Check that "Healthcare" page is opened
+  Scenario: 7.001 Check that "Healthcare" page is opened
     Given open home page
     When navigate on "Industries" title in the header
     Then "Healthcare" link is displayed

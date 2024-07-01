@@ -1,6 +1,6 @@
 Feature: verifying education page
 
-  Scenario: 4.001 Check that "Education" page is opened
+  Scenario: 5.001 Check that "Education" page is opened
     Given open home page
     When navigate on "Industries" title in the header
     Then "Education" link is displayed
