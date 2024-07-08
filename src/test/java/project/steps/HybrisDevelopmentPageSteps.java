@@ -14,7 +14,7 @@ public class HybrisDevelopmentPageSteps extends ScenarioSteps {
     @Then("^Hybris Development page is opened$")
     public void hybrisDevelopmentPageIsOpened() {
         Assert.assertTrue(
-                "Hybris Development isn't opened",
+                "Hybris Development page isn't opened",
                 core.elementByXpathIsVisible(HybrisDevelopmentPage.HYBRIS_DEVELOPMENT_TITLE)
         );
     }
