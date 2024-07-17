@@ -81,7 +81,7 @@ public class EducationPageSteps extends ScenarioSteps {
 
     @When("^navigate on \"([^\"]*)\" subtitle$")
     public void navigateOnSubtitle(String text) throws Throwable {
-        core.hoverOnElement(EducationPage.SUBTITLE_INSIDE_PAGE.replace("$1", text));
+        core.scrollToElementByXpathUsingJsExecutor(EducationPage.SUBTITLE_INSIDE_PAGE.replace("$1", text));
     }
 
     @When("^navigate on right arrow inside Our Clients section$")

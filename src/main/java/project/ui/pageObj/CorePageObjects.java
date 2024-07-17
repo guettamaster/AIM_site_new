@@ -96,6 +96,10 @@ public class CorePageObjects extends PageObject implements CorePageObjectsInterf
         executor.executeScript("arguments[0].scrollIntoView(true);", $(xpath));
     }
 
+    public void findElementByLinkText(String xpath) {
+        find(By.xpath(xpath));
+    }
+
     /**
      * Waits default time for invisibility of element and returns boolean value:
      * true - if element is not visible on the page,

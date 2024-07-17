@@ -184,7 +184,7 @@ public class HomePageSteps extends ScenarioSteps {
 
     @When("^navigate on Clients title$")
     public void navigateOnClientsTitle() {
-        core.hoverOnElement(HomePage.CLIENTS_TITLE);
+        core.scrollToElementByXpathUsingJsExecutor(HomePage.CLIENTS_TITLE);
     }
 
     @Then("^Clients title is displayed$")
