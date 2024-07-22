@@ -102,8 +102,6 @@ Feature: verifying Liferay Development page
     Then "Certification platform" title is displayed
     When click right arrow in the Partners & Achievements carousel
     Then "Sports portal" title is displayed
-#    When click Accept button
-#    Then "Stack" tile is displayed
     When navigate on "Liferay technologies we practice" subtitle
     When navigate on "Programming core" title in the Stack section
     Then "Programming core" title is displayed
@@ -152,8 +150,8 @@ Feature: verifying Liferay Development page
     Then "Perfect for medium or large projects" tile in the Cooperation With Us section is displayed
     When navigate on Clients title
     Then Clients title is displayed
-#    When navigate on "Dalia Grakulskytė" client title in the Testimonials section
-#    Then "Testimonials" tile is displayed
+    When navigate on "Dalia Grakulskytė" client title in the Testimonials section
+    Then "Testimonials" tile is displayed
     Then "Dalia Grakulskytė" client title is displayed
     When navigate on right arrow third in the Clients carousel
     When click right arrow third in the Clients carousel
