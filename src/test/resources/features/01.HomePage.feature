@@ -160,54 +160,56 @@ Feature: verifying home page
     Then "Aroma360 logo" icon is displayed
     When navigate on Partners & Achievements title
     Then Partners & Achievements title is displayed
+    Then "aws partner award" icon is displayed
+    Then "liferay-silver-partner award" icon is displayed
     Then "Cyber essentials award" icon is displayed
     Then "Sap silver partner" icon is displayed
+    When navigate on right arrow in the Partners & Achievements carousel
+    When click right arrow in the Partners & Achievements carousel
     Then "Top Software Testing Company Estern Europe 2024" icon is displayed
     Then "Global FALL 2023" icon is displayed
-    When navigate on right arrow in the Partners & Achievements carousel
-    When click right arrow in the Partners & Achievements carousel
     Then "node js techreviewer award" icon is displayed
     Then "top nodejs developers award" icon is displayed
-    Then "Clutch Eastern Europe award" icon is displayed
-    Then "Clutch Eastern Europe award" icon is displayed
     When navigate on right arrow in the Partners & Achievements carousel
     When click right arrow in the Partners & Achievements carousel
+    Then "Clutch Eastern Europe award" icon is displayed
+    Then "Clutch Eastern Europe award" icon is displayed
     Then "Techrewiever Java 2023 award" icon is displayed
     Then "Goodfirms Ecommerce award" icon is displayed
-    Then "Goodfirms IoT award" icon is displayed
-    Then "Goodfirms IoT award" icon is displayed
     When navigate on right arrow in the Partners & Achievements carousel
     When click right arrow in the Partners & Achievements carousel
+    Then "Goodfirms IoT award" icon is displayed
+    Then "Goodfirms IoT award" icon is displayed
     Then "react topdevelopers award" icon is displayed
     Then "Superbcompanies AngularJS award" icon is displayed
+    When navigate on right arrow in the Partners & Achievements carousel
+    When click right arrow in the Partners & Achievements carousel
     Then "Superbcompanies Java award" icon is displayed
     Then "Superbcompanies Ecommerce award" icon is displayed
-    When navigate on right arrow in the Partners & Achievements carousel
-    When click right arrow in the Partners & Achievements carousel
     Then "Aciety Ecommerce award" icon is displayed
     Then "Aciety IoT award" icon is displayed
+    When navigate on right arrow in the Partners & Achievements carousel
+    When click right arrow in the Partners & Achievements carousel
     Then Superbcompanies AngularJS award icon is displayed
     Then Superbcompanies AngularJS award first icon is displayed
-    When navigate on right arrow in the Partners & Achievements carousel
-    When click right arrow in the Partners & Achievements carousel
     Then "Top Custom Software Development award" icon is displayed
     Then "Top Web Development award" icon is displayed
+    When navigate on right arrow in the Partners & Achievements carousel
+    When click right arrow in the Partners & Achievements carousel
     Then "Top UI UX Design award" icon is displayed
     Then "Top java developers award" icon is displayed
-    When navigate on right arrow in the Partners & Achievements carousel
-    When click right arrow in the Partners & Achievements carousel
     Then "Top app modernization companies awards" icon is displayed
     Then "Top b2b companies award 2021" icon is displayed
+    When navigate on right arrow in the Partners & Achievements carousel
+    When click right arrow in the Partners & Achievements carousel
     Then "Top developers award" icon is displayed
     Then "Top b2b companies award 2019" icon is displayed
-    When navigate on right arrow in the Partners & Achievements carousel
-    When click right arrow in the Partners & Achievements carousel
     Then "Top rated software development company award" icon is displayed
     Then "GoodFirms badge" icon is displayed
-    Then "DesignRush badge" icon is displayed
-    Then "ITRate badge" icon is displayed
     When navigate on right arrow in the Partners & Achievements carousel
     When click right arrow in the Partners & Achievements carousel
+    Then "DesignRush badge" icon is displayed
+    Then "ITRate badge" icon is displayed
     Then "Shopify partners badge" icon is displayed
     Then "Your team trusted partner" icon is displayed
     When navigate on Latest articles in our blog title

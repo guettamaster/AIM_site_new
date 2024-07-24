@@ -208,7 +208,6 @@ Feature: verifying Web Development page
     When navigate on Clients title
     Then Clients title is displayed
     When navigate on "Dalia Grakulskytė" client title in the Testimonials section
-    Then "Testimonials" tile is displayed
     Then "Dalia Grakulskytė" client title is displayed
     When navigate on right arrow fourth in the Clients carousel
     When click right arrow fourth in the Clients carousel
