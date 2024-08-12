@@ -13,7 +13,7 @@ public class HomePageSteps extends ScenarioSteps {
 
     @When("^navigate on \"([^\"]*)\" title in the header$")
     public void navigateOnTitleInTheHeader(String text) throws Throwable {
-//        waitABit(500);
+        waitABit(10);
         core.hoverOnElement(HomePage.HEADER_TITLE.replace("$1", text));
     }
 

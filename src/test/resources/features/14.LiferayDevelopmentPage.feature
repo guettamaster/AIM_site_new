@@ -171,3 +171,8 @@ Feature: verifying Liferay Development page
     When navigate on right arrow third in the Clients carousel
     When click right arrow third in the Clients carousel
     Then "Knut Nygård" client title is displayed
+    When navigate on "Frequently Asked Questions" subtitle
+    Then "Do I need to be a tech-savvy person to create a web product on Liferay?" item is displayed
+    Then "Should I update my portal to the latest version?" item is displayed
+    Then "How often Liferay releases a new version?" item is displayed
+    Then "Should I use a Community or DXP, or Enterprise edition?" item is displayed
