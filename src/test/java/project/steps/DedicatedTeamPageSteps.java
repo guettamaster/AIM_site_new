@@ -6,7 +6,6 @@ import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
 import project.ui.pageObj.CorePageObjects;
 import project.ui.xpath_locators.DedicatedTeamPage;
-import project.ui.xpath_locators.WebDevelopmentPage;
 
 public class DedicatedTeamPageSteps extends ScenarioSteps {
 

@@ -372,6 +372,6 @@ Feature: verifying Dedicated Team page
     Then Hire Full Stack Developers page is opened
     Then "Hire Full Stack Developers" general title is displayed
     Then switch to the AIM tab
-    Then "Hire Full Stack Developers" title is displayed
+    Then "Hire Full-stack Developers" title is displayed
 
 
