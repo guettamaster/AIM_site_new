@@ -29,7 +29,6 @@ Feature: verifying Business Analysis page
     Then "scroll down to discover" link is presented
     When click on "scroll down to discover" link
     Then "When you need to hire business analysts" subtitle is displayed
-
     Then "You want to allocate your resources wisely" tile is displayed
     Then "There is a need to test the viability of your product idea" tile is displayed
     Then "You need to optimize underperforming solution" tile is displayed
