@@ -51,7 +51,6 @@ Feature: verifying UI/UX Design page
     Then "Brand identity design" title is displayed
     Then "Software redesign services" title is displayed
     Then "Wireframing & prototyping" title is displayed
-
     Then "Industries we work with" subtitle is displayed
     Then "eCommerce" title is displayed
     Then "Healthcare" title is displayed
