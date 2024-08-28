@@ -238,7 +238,7 @@ Feature: verifying Dedicated Team page
     Then "RxSwift" technology in stack section is displayed
     Then "Native mobile development (Android)" tile is displayed
     Then "Java" technology in stack section is displayed
-    Then "Java" technology in stack section is displayed
+    Then "Kotlin" technology in stack section is displayed
     Then "Android Studio" technology in stack section is displayed
     Then "Android SDK" technology in stack section is displayed
     Then "Android JetPack" technology in stack section is displayed
