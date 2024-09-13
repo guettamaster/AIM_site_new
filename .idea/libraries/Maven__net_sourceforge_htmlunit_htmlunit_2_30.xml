@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: net.sourceforge.htmlunit:htmlunit:2.30" type="java-imported" external-system-id="Maven">
+    <properties groupId="net.sourceforge.htmlunit" artifactId="htmlunit" version="2.30" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.30/htmlunit-2.30.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.30/htmlunit-2.30-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.30/htmlunit-2.30-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: xerces:xercesImpl:2.11.0" type="java-imported" external-system-id="Maven">
+    <properties groupId="xerces" artifactId="xercesImpl" version="2.11.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
