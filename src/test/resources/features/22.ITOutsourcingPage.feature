@@ -271,4 +271,4 @@ Feature: verifying Data Science page
     Then "What types of projects can I outsource?" item is displayed
     Then "Can I still choose an outsourcing model in case my company’s or my clients’ data is private?" item is displayed
     Then "How much can development costs be reduced by using the services of an IT outsourcing company?" item is displayed
-    Then "How to price outsourcing services?" item is displayed
+    Then "How to price outsourcing services?" item is displayyed
