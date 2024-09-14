@@ -9,11 +9,13 @@ default:
 stages:
   - test
 
-#Integration tests with Allure:
-#  stage: test
-#  script:
-#    - ./gradlew clean test
-#    - ./gradlew allureReport
-#  artifacts:
-#    paths:
-#      - build/reports/allure-report/allureReport/*
+Integration tests with Allure:
+  stage: test
+  script:
+    - ./gradlew clean test
+  after_script:
+    - ./gradlew allureReport
+  artifacts:
+    when: always
+    paths:
+      - build/reports/allure-report/allureReport/*

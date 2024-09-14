@@ -14,7 +14,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.6">
-      <module name="Aimprosoft" target="1.8" />
       <module name="automationTrustPayments" target="1.8" />
       <module name="trust-payment-extension" target="1.8" />
     </bytecodeTargetLevel>
