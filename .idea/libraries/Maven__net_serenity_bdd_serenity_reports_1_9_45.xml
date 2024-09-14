@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: net.serenity-bdd:serenity-reports:1.9.45" type="java-imported" external-system-id="Maven">
+    <properties groupId="net.serenity-bdd" artifactId="serenity-reports" version="1.9.45" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-reports/1.9.45/serenity-reports-1.9.45.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-reports/1.9.45/serenity-reports-1.9.45-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-reports/1.9.45/serenity-reports-1.9.45-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

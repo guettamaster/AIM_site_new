@@ -1,0 +1,22 @@
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+
+
+}
+
+def apiTest : Test = tasks.register("uiTests", Test) {
+    useJUnitPlatform {
+        includeTags "UI"
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

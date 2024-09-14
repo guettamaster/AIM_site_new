@@ -12,6 +12,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 
+//@Tag("UI")
+
 /**
  * The class contains common methods for working with page elements
  *

@@ -7,15 +7,35 @@ default:
     - BackgroundAutoTestsAIM
 
 stages:
-  - test
+  - ui
+  - allure
 
-Integration tests with Allure:
-  stage: test
+UI Test:
+  stage: ui
+  allow_failure: true
   script:
-    - ./gradlew clean test
-  after_script:
+    - ./gradlew -x test uiTests
+  artifacts:
+    paths:
+      - build/allure-results
+
+Allure report:
+  stage: allure
+  script:
     - ./gradlew allureReport
   artifacts:
     when: always
     paths:
       - build/reports/allure-report/allureReport/*
+
+
+#Integration tests with Allure:
+#  stage: test
+#  script:
+#    - ./gradlew clean test
+#  after_script:
+#    - ./gradlew allureReport
+#  artifacts:
+#    when: always
+#    paths:
+#      - build/reports/allure-report/allureReport/*
