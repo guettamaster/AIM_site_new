@@ -16,6 +16,7 @@ UI Test:
   script:
     - ./gradlew -x test uiTests
   artifacts:
+    when: always
     paths:
       - build/allure-results
 
