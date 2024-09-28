@@ -23,10 +23,12 @@ Allure report:
   stage: allure
   script:
     - ./gradlew allureReport
+    - echo "Allure report live here"
   artifacts:
     when: always
     paths:
       - build/reports/allure-report/allureReport/*
+
 
 
 #Integration tests with Allure:
