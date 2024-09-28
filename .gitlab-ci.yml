@@ -1,14 +1,14 @@
-image: gradle:alpine
+#image: gradle:alpine
 
-#image: maven:3.9.9-openjdk-11
+image: maven:3.9.9-openjdk-11
 
 default:
   tags:
     - BackgroundAutoTestsAIM
 
 stages:
-  - tests
-  - allure
+  - ui
+#  - allure
 
 UI Test:
   stage: tests
@@ -20,15 +20,15 @@ UI Test:
     paths:
       - build/allure-results
 
-Allure report:
-  stage: allure
-  script:
-    - ./gradlew allureReport
-    - echo "Allure report live here"
-  artifacts:
-    when: always
-    paths:
-      - build/reports/allure-report/allureReport/*
+#Allure report:
+#  stage: allure
+#  script:
+#    - ./gradlew allureReport
+#    - echo "Allure report live here"
+#  artifacts:
+#    when: always
+#    paths:
+#      - build/reports/allure-report/allureReport/*
 
 
 
