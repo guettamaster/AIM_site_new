@@ -7,11 +7,11 @@ default:
     - BackgroundAutoTestsAIM
 
 stages:
-  - ui
+  - tests
   - allure
 
 UI Test:
-  stage: ui
+  stage: tests
   allow_failure: true
   script:
     - ./gradlew -x test uiTests
